@@ -38,11 +38,11 @@ export default function IntroSection() {
       <div className="intro-container">
         <div className="intro-content">
           <h1>
-            Greetings, I’m<br />
+            Greetings, I&#39;m<br />
             <span className="highlight">Ryan Bhan</span>
           </h1>
           <p className="description">
-          Welcome to my design portfolio. I'm just getting started on my creative journey and learning more every day!
+          Welcome to my design portfolio. I&#39;m just getting started on my creative journey and learning more every day!
           </p>
           <div className="intro-buttons">
             <button
