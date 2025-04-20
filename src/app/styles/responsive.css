@@ -1,0 +1,8 @@
+@media (max-width: 768px) {
+    .header, .footer {
+      font-size: 0.9rem;
+    }
+    .main-content {
+      padding: 1rem;
+    }
+  }

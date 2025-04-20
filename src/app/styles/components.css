@@ -1,0 +1,108 @@
+/* Remove default list styles */
+body ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+.header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: black;
+  padding: 1rem 2rem;
+  z-index: 1000;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav-bar ul {
+  display: flex;
+  gap: 2rem;
+}
+
+.nav-bar a {
+  text-decoration: none;
+  color: #00bcd4;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.nav-bar a:hover {
+  color: #008c9e;
+}
+
+/* Intro Section */
+.intro-section {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  padding: 2rem;
+}
+
+.intro-container {
+  text-align: center;
+}
+
+.intro-content h1 {
+  font-size: 4rem;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 1rem;
+  line-height: 1.2;
+}
+
+.intro-content h1 .highlight {
+  color: #00bcd4;
+}
+
+.intro-content p {
+  font-size: 1.5rem;
+  color: #ccc;
+  margin-bottom: 2rem;
+}
+
+.intro-buttons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.blue-button {
+  background-color: #00bcd4;
+  color: black;
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.blue-button:hover {
+  background-color: #008c9e;
+}
+
+.black-button {
+  background-color: black;
+  color: white;
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  border: 2px solid #00bcd4;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.black-button:hover {
+  background-color: #00bcd4;
+  color: black;
+}
